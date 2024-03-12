@@ -29,7 +29,7 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
               </div>
               <div className="pt-2">
                 <dt className="text-sm font-medium text-gray-500">
-                  Pasturised/Raw 
+                  Pasturised/ Raw 
                 </dt>
                 <dd className="text-base font-bold tracking-tight text-gray-900">
                   Both available on request
@@ -49,7 +49,7 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
                   Shelf Life
                 </dt>
                 <dd className="text-base font-bold tracking-tight text-gray-900">
-                  1 week (refrigerated)
+                  1 week 
                 </dd>
               </div>
               <div className="border-t-2 border-gray-100 pt-2">
