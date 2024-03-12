@@ -9,7 +9,7 @@ const Application: NextPage<AppProps<{}>> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Maveshi Farms</title>
+        <title>Burraq Dairies</title>
         <meta
           name="viewport"
           content="initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover"

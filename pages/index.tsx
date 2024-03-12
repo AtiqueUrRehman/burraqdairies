@@ -1,5 +1,5 @@
 import Hero from "../components/hero";
-import Catalogue from "../components/catalogus";
+import Catalogue from "../components/catalogue";
 import * as FullStory from "@fullstory/browser";
 import { useEffect } from "react";
 

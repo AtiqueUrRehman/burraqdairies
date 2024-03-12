@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
-                <span className="sr-only">MaveshiFarms</span>
+                <span className="sr-only">BurraqDairies</span>
                 <img className="h-12 w-auto sm:h-16" src="logo.png" />
               </a>
             </div>
@@ -67,45 +67,15 @@ export default function Hero() {
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
                 <span className="mt-1 block text-3xl tracking-tight font-extrabold sm:text-4xl xl:text-4xl inline text-gray-900">
-                  We know buying and keeping animals for Qurbani is hard,
+                  Improving the dairy landscpe in Pakistan
                 </span>
               </h1>
               &nbsp;
-              <h1>
-                <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
-                  <span className="inline text-gray-900">this Eid, let
-                  <span className="inline text-red-600"> MaveshiFarms </span>
-                  </span>
-
-                  
-                  <span className="inline text-gray-900">
-                    take care of that!
-                  </span>
-                </span>
-              </h1>
 
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-xl font-medium text-gray-900">
-                  Book your animal now to get <span className="font-extrabold text-red-500">free shelter</span> till Eid, 
-                  <span className="font-extrabold text-red-500"> free food</span> till Eid and <span className="font-extrabold text-red-500">free delivery </span>
-                   to your doorstep! 
-                </p>
-                <p className="text-xl font-medium text-gray-900">Worried about <span className="font-extrabold text-red-500">butcher? </span> we can take care of that too!</p>
-                &nbsp;
-                <p className="text-lg font-medium text-gray-900"> 
-                  <div className="grid grid-cols-3 place-items-start">
-                    <div className="col-start-1 col-span-1">WhatsApp</div>
-                    <a className="underline" target="_blank" href="https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I saw your website may I know more about this ?" >0313-0794980</a>
-                    <div className="col-start-1 col-span-1">Email</div>
-                    <a href="mailto:maveshifarms@gmail.com"  className="underline">maveshifarms@gmail.com</a>
-                    <div className="col-start-1 col-span-1">Instagram</div>
-                    <a href="https://instagram.com/maveshifarms" className="underline" target="_blank">instagram.com/maveshifarms</a>
-                    <div className="col-start-1 col-span-1">Facebook</div>
-                    <a href="https://facebook.com/maveshifarms" className="underline" target="_blank">facebook.com/maveshifarms</a>
-                    <div className="col-start-1 col-span-1">Location</div>
-                    <a href="https://g.page/maveshifarms" className="underline" target="_blank">g.page/maveshifarms</a>
-                  </div>                  
-                </p>
+                <h2 className="text-xl font-medium text-gray-900">
+                  We provide 100% pure and organic Goat milk products. <a className="underline" target="_blank" href="https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I saw your website may I know more about this ?" >Get in touch</a> for more details.</h2>
+                  &nbsp;
               </div>
             </div>
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
@@ -156,7 +126,7 @@ export default function Hero() {
                   className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
                 >
                   <span className="sr-only">Watch our video to learn more</span>
-                  <img className="w-full" src="hero.png" alt="" />
+                  <img className="w-full" src="hero.jpg" alt="" />
                 </button>
               </div>
             </div>
