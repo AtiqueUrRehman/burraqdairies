@@ -1,6 +1,7 @@
 import Hero from "../components/hero";
 import Catalogue from "../components/catalogue";
 import * as FullStory from "@fullstory/browser";
+import GoogleAnalytics from "../components/google_analytics";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <div className="relative bg-white overflow-hidden">
         <Hero />
 	      <Catalogue />
+        <GoogleAnalytics trackingId="G-BYLFLLDXSE" />
       </div>
     </div>
   );
