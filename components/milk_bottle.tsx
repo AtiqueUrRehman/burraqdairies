@@ -135,6 +135,16 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
         .order-now-button:hover {
           background-color: darkgrey;
         }
+
+        /* Media Query for Mobile */
+        @media (max-width: 768px) {
+          .product-catalog-item {
+            flex-direction: column;
+          }
+          .product-image, .product-details {
+            width: 100%;
+          }
+        }
       `}</style>
     </div>
   );
