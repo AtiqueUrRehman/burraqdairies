@@ -68,6 +68,22 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
                   Product contains lactose
                 </dd>
               </div>
+              <div className="border-t-2 border-gray-100 pt-2">
+                <dt className="text-sm font-medium text-gray-500">
+                  Availability
+                </dt>
+                <dd className="text-base font-bold tracking-tight text-gray-900">
+                  Home delivery available in Rawalpindi and Islamabad
+                </dd>
+              </div>
+              <div className="border-t-2 border-gray-100 pt-2">
+                <dt className="text-sm font-medium text-gray-500">
+                  Price
+                </dt>
+                <dd className="text-base font-bold tracking-tight text-gray-900">
+                  950 per liter (no delivery charges)
+                </dd>
+              </div>
             </dl>
           </div>
         </div>
