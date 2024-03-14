@@ -1,0 +1,56 @@
+/* styles/Form.module.css */
+
+.formContainer {
+  max-width: 500px;
+  margin-top: 50px; /* Adjust the value as needed for your design */
+  margin-right: auto;
+  margin-bottom: 50px; /* Optional: If you want to add space at the bottom as well */
+  margin-left: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+  
+  .formTitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    background-color: #000; /* Match this to your theme */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #333; /* Darker shade for hover effect */
+  }
+  

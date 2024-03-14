@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
 // Define the type for the component props
 type ProductCatalogItemProps = {
@@ -8,6 +9,12 @@ type ProductCatalogItemProps = {
 };
 
 const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, description, imageUrl }) => {
+  const router = useRouter();
+
+  const redirectToFormPage = () => {
+    router.push('/order'); // Adjust the path as needed for your form page
+  };
+
   return (
     <div className="product-catalog-item">
       <div className="product-image">
@@ -87,9 +94,7 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
             </dl>
           </div>
         </div>
-        <a href='https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I saw your website may I would like to order Goat Milk.'>
-          <button className="order-now-button">Order Now</button>
-        </a>
+          <button className="order-now-button" onClick={redirectToFormPage}>Order Now</button>
       </div>
 
       {/* Styles could also be extracted to a separate CSS/SCSS file */}
