@@ -21,7 +21,7 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
         <img src={imageUrl} alt={title} />
       </div>
       <div className="product-details">
-        <h2 className="product-title">{title}</h2>
+        <h2 className="product-title">{title} <h3 className="product-count">1500+ lit sold!</h3></h2>
         <p className="product-description">{description}</p>
         <div className="space-y-1">
           <div className="mt-0">
@@ -88,8 +88,9 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
                   Price
                 </dt>
                 <dd className="text-base font-bold tracking-tight text-gray-900">
-                  950 per liter (no delivery charges)
+                  1050 per liter (no delivery charges)
                 </dd>
+
               </div>
             </dl>
           </div>
@@ -120,6 +121,10 @@ const ProductCatalogItem: React.FC<ProductCatalogItemProps> = ({ title, descript
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+        }
+        .product-count{
+          font-size: 20px;
+          color: #666;
         }
         .product-title {
           margin: 0;
